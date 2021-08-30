@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Fluid
   - Taken
+  - doWork
+  - NPCIdle
   layers:
   - Default
   - TransparentFX

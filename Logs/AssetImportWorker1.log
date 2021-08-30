@@ -1,0 +1,2204 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.13f1 (71691879b7f5) revision 7432472'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19043.1165; Version 2009; 64bit' Language: 'en' Physical Memory: 16326 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/mrtal/First Game
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+62856
+Successfully changed project path to: C:/Users/mrtal/First Game
+C:/Users/mrtal/First Game
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 36.11 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.13f1 (71691879b7f5)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/mrtal/First Game/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
+    Vendor:   
+    VRAM:     8088 MB
+    Driver:   30.0.14.7168
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56464
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003086 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 37.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.338 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006494 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.203 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1434 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.9 MB.
+System memory in use after: 83.0 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1892.
+Total: 2.107800 ms (FindLiveObjects: 0.167500 ms CreateObjectMapping: 0.085500 ms MarkObjects: 1.767800 ms  DeleteObjects: 0.086300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Prefabs/Shae
+  artifactKey: Guid(8aedb6869bfcb534a8dece78cd2d95e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shae using Guid(8aedb6869bfcb534a8dece78cd2d95e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d09bede0387bf3b2f881a9925a55a74') in 0.008106 seconds 
+  Import took 0.010455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.526454 seconds.
+  path: Assets/Prefabs/Shae/Shae Sitting Talking.fbx
+  artifactKey: Guid(5a7a83125e7d0464695fd69d869b4ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shae/Shae Sitting Talking.fbx using Guid(5a7a83125e7d0464695fd69d869b4ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36260871e5b2e5fdffaf1289192af270') in 0.261128 seconds 
+  Import took 0.264966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.491212 seconds.
+  path: Assets/Prefabs/Shae/Shae Sitting Talking.fbx
+  artifactKey: Guid(5a7a83125e7d0464695fd69d869b4ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shae/Shae Sitting Talking.fbx using Guid(5a7a83125e7d0464695fd69d869b4ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0cf6e5d9e2713f06ac05e000b599836') in 0.133233 seconds 
+  Import took 0.137703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.981660 seconds.
+  path: Assets/Prefabs/Shae/Shae Sitting Talking.fbx
+  artifactKey: Guid(5a7a83125e7d0464695fd69d869b4ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shae/Shae Sitting Talking.fbx using Guid(5a7a83125e7d0464695fd69d869b4ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '302e9e4a5e24730bca8f7b3d7d2c0606') in 0.097553 seconds 
+  Import took 0.101720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.763741 seconds.
+  path: Assets/Prefabs/Shae/Shae Sitting Talking.fbx
+  artifactKey: Guid(5a7a83125e7d0464695fd69d869b4ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shae/Shae Sitting Talking.fbx using Guid(5a7a83125e7d0464695fd69d869b4ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '526fa88447c5b6c0c322fa0a97762c34') in 0.102204 seconds 
+  Import took 0.106420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.402662 seconds.
+  path: Assets/Prefabs/Shae/Shae Sitting Talking.fbx
+  artifactKey: Guid(5a7a83125e7d0464695fd69d869b4ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shae/Shae Sitting Talking.fbx using Guid(5a7a83125e7d0464695fd69d869b4ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77524f4309396fbf2c52c4cd4537c7be') in 0.123236 seconds 
+  Import took 0.127119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.262521 seconds.
+  path: Assets/Prefabs/Shae/Shae Sitting Talking.fbx
+  artifactKey: Guid(5a7a83125e7d0464695fd69d869b4ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shae/Shae Sitting Talking.fbx using Guid(5a7a83125e7d0464695fd69d869b4ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fa372ce69b315e5d4beabd23faaeeaa') in 0.097678 seconds 
+  Import took 0.102211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.222919 seconds.
+  path: Assets/Prefabs/Shae/Shae Sitting Talking.fbm
+  artifactKey: Guid(806fcf7264993254991b56de919d022a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shae/Shae Sitting Talking.fbm using Guid(806fcf7264993254991b56de919d022a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e791f43124fdc19547bdf4e6988216b') in 0.008530 seconds 
+  Import took 0.011606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.885571 seconds.
+  path: Assets/Prefabs/Shae/Materials
+  artifactKey: Guid(a24c1e5fc6ff7ed43a625dfd398b3dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shae/Materials using Guid(a24c1e5fc6ff7ed43a625dfd398b3dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38e9ecc3582bcdc3f89218fd79e3da67') in 0.007829 seconds 
+  Import took 0.010595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 102.280282 seconds.
+  path: Assets/Prefabs/Shae/Regina Sitting Talking.fbx
+  artifactKey: Guid(eedbb55c73e55ac4d87d32dc935376de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shae/Regina Sitting Talking.fbx using Guid(eedbb55c73e55ac4d87d32dc935376de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b23954d6a901e3cefcbea73d93f6bd10') in 0.118528 seconds 
+  Import took 0.122927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.118214 seconds.
+  path: Assets/Prefabs/Shae/Regina Sitting Talking.fbx
+  artifactKey: Guid(eedbb55c73e55ac4d87d32dc935376de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shae/Regina Sitting Talking.fbx using Guid(eedbb55c73e55ac4d87d32dc935376de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2210fdda25b7940d48be2a1bddf56d2e') in 0.093469 seconds 
+  Import took 0.097496 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.487823 seconds.
+  path: Assets/Prefabs/Shae/Regina Sitting Talking.fbx
+  artifactKey: Guid(eedbb55c73e55ac4d87d32dc935376de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shae/Regina Sitting Talking.fbx using Guid(eedbb55c73e55ac4d87d32dc935376de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '893a9218092ee06dd43c9406deaa80ab') in 0.118684 seconds 
+  Import took 0.122471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.083717 seconds.
+  path: Assets/Prefabs/Shae/Regina Sitting Talking.fbx
+  artifactKey: Guid(eedbb55c73e55ac4d87d32dc935376de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shae/Regina Sitting Talking.fbx using Guid(eedbb55c73e55ac4d87d32dc935376de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9640304edaf6237c2283c32ad5f82f88') in 0.114351 seconds 
+  Import took 0.119047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.842714 seconds.
+  path: Assets/Prefabs/Shae/Regina Sitting Talking.fbx
+  artifactKey: Guid(eedbb55c73e55ac4d87d32dc935376de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shae/Regina Sitting Talking.fbx using Guid(eedbb55c73e55ac4d87d32dc935376de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '654c251b8177e216c685258b70e7478f') in 0.104147 seconds 
+  Import took 0.108467 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.400205 seconds.
+  path: Assets/Prefabs/Shae/Regina Sitting Talking.fbx
+  artifactKey: Guid(eedbb55c73e55ac4d87d32dc935376de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shae/Regina Sitting Talking.fbx using Guid(eedbb55c73e55ac4d87d32dc935376de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81583d92f9c2e67d5f6b079f309fa47e') in 0.102070 seconds 
+  Import took 0.106018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.234980 seconds.
+  path: Assets/Prefabs/Shae/Regina Sitting Talking.fbx
+  artifactKey: Guid(eedbb55c73e55ac4d87d32dc935376de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shae/Regina Sitting Talking.fbx using Guid(eedbb55c73e55ac4d87d32dc935376de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f60471e6efde7360b4936972428b1ea5') in 0.107509 seconds 
+  Import took 0.112042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.646312 seconds.
+  path: Assets/Prefabs/Shae/Regina Sitting Talking.fbx
+  artifactKey: Guid(eedbb55c73e55ac4d87d32dc935376de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shae/Regina Sitting Talking.fbx using Guid(eedbb55c73e55ac4d87d32dc935376de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c6beb419947d520ed8cb52f16441692') in 0.098006 seconds 
+  Import took 0.101850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 61.881027 seconds.
+  path: Assets/Prefabs/Shae/Materials/Regina_Body_Diffuse.mat
+  artifactKey: Guid(6dbd1a2e327ceb24296f2c89deda6e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shae/Materials/Regina_Body_Diffuse.mat using Guid(6dbd1a2e327ceb24296f2c89deda6e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a22e1f1b1dc733d840e518397b0073a1') in 0.025197 seconds 
+  Import took 0.028252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Prefabs/Shae/Materials/Regina_Top_Diffuse.mat
+  artifactKey: Guid(fe8bf5a95adba2345ab9ed803439a7a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shae/Materials/Regina_Top_Diffuse.mat using Guid(fe8bf5a95adba2345ab9ed803439a7a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '093a1cdf20dc477094c650900b96785f') in 0.016792 seconds 
+  Import took 0.019656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Prefabs/Shae/Materials/Regina_Hat_Diffuse.mat
+  artifactKey: Guid(40ea886977572f044ba676921873cc71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shae/Materials/Regina_Hat_Diffuse.mat using Guid(40ea886977572f044ba676921873cc71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ceb2b56fde1544641f30cba60ca2c47') in 0.018814 seconds 
+  Import took 0.022187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Prefabs/Shae/Materials/Regina_Hair_Diffuse.mat
+  artifactKey: Guid(06fa199bde5eef643a530ceec3b85382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shae/Materials/Regina_Hair_Diffuse.mat using Guid(06fa199bde5eef643a530ceec3b85382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '701182b4a123019d811b302dbb233023') in 0.016266 seconds 
+  Import took 0.019481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Prefabs/Shae/Materials/Regina_Bottom_Diffuse.mat
+  artifactKey: Guid(f413c626c3c75a24daac118248fc92ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shae/Materials/Regina_Bottom_Diffuse.mat using Guid(f413c626c3c75a24daac118248fc92ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15fe6a4d1eaba0ee16cd87e1b74670c6') in 0.016953 seconds 
+  Import took 0.019830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Prefabs/Shae/Materials/Regina_Shoes_Diffuse.mat
+  artifactKey: Guid(c98cfe1293fc9b1488a08f3f93cea6a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shae/Materials/Regina_Shoes_Diffuse.mat using Guid(c98cfe1293fc9b1488a08f3f93cea6a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f95aed30e4034ef9594cbe67c13bfd5') in 0.016371 seconds 
+  Import took 0.019092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.390194 seconds.
+  path: Assets/Prefabs/Shae/mixamo.com.anim
+  artifactKey: Guid(7a9b620fcb224854dae4efbe7e5b48fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shae/mixamo.com.anim using Guid(7a9b620fcb224854dae4efbe7e5b48fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc8fbd887acf67c8b6f2a6a2847de2f6') in 0.041770 seconds 
+  Import took 0.044733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.904786 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Materials/Ch42_1001_Diffuse.mat
+  artifactKey: Guid(2094e28eda913dc48b7172b9c9556915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Materials/Ch42_1001_Diffuse.mat using Guid(2094e28eda913dc48b7172b9c9556915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c299b4e611d0fd769aa6969ec99ce12') in 0.019126 seconds 
+  Import took 0.022293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Materials/Ch42_1002_Diffuse.mat
+  artifactKey: Guid(7628538a149b4a140aeb3c6813216671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Materials/Ch42_1002_Diffuse.mat using Guid(7628538a149b4a140aeb3c6813216671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a30ff226203b4a609002f84e62e655e9') in 0.019970 seconds 
+  Import took 0.022188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.525632 seconds.
+  path: Assets/Prefabs/Regina
+  artifactKey: Guid(8aedb6869bfcb534a8dece78cd2d95e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Regina using Guid(8aedb6869bfcb534a8dece78cd2d95e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6d6049c5840a0892e26783a26748855') in 0.008312 seconds 
+  Import took 0.011245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.177136 seconds.
+  path: Assets/Prefabs/Regina/Regina Sitting Talking.fbm
+  artifactKey: Guid(5989c0a2a36e1cb48a9a01f0b3acb077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Regina/Regina Sitting Talking.fbm using Guid(5989c0a2a36e1cb48a9a01f0b3acb077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '987083a846edc57f92dd7da908386423') in 0.008594 seconds 
+  Import took 0.011578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Prefabs/Regina/Regina Sitting Talking.fbm
+  artifactKey: Guid(5989c0a2a36e1cb48a9a01f0b3acb077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Regina/Regina Sitting Talking.fbm using Guid(5989c0a2a36e1cb48a9a01f0b3acb077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '987083a846edc57f92dd7da908386423') in 0.003109 seconds 
+  Import took 0.005430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030586 seconds.
+  path: Assets/Prefabs/Regina/Regina Sitting Talking.fbm/Regina_Body_Diffuse.png
+  artifactKey: Guid(87543fd0289130d489fe422e9999804a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Regina/Regina Sitting Talking.fbm/Regina_Body_Diffuse.png using Guid(87543fd0289130d489fe422e9999804a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cbd86fefc4b89ea954201e4d9a48e7c') in 0.043152 seconds 
+  Import took 0.046019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Prefabs/Regina/Regina Sitting Talking.fbm/Regina_Body_Normal.png
+  artifactKey: Guid(74b2d843435605148bd138b40ab2a4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Regina/Regina Sitting Talking.fbm/Regina_Body_Normal.png using Guid(74b2d843435605148bd138b40ab2a4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f159ea5f8c96f9bee48929ea20c2521') in 0.016973 seconds 
+  Import took 0.019258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Prefabs/Regina/Regina Sitting Talking.fbm/Regina_Body_Gloss.png
+  artifactKey: Guid(e76b30259d3726548a9a484850da9b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Regina/Regina Sitting Talking.fbm/Regina_Body_Gloss.png using Guid(e76b30259d3726548a9a484850da9b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '435ea9633d2a03ec70d87a92fc0a3d88') in 0.014983 seconds 
+  Import took 0.017276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Prefabs/Regina/Regina Sitting Talking.fbm/Regina_Hair_Normal.png
+  artifactKey: Guid(5badcf7eccf26e74c917257224a686bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Regina/Regina Sitting Talking.fbm/Regina_Hair_Normal.png using Guid(5badcf7eccf26e74c917257224a686bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcb2c5333d0c5f4314f34d6a415150e4') in 0.013747 seconds 
+  Import took 0.016147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Prefabs/Regina/Regina Sitting Talking.fbm/Regina_Shoes_Normal.png
+  artifactKey: Guid(23d1ab02c55976549b851b60da0540ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Regina/Regina Sitting Talking.fbm/Regina_Shoes_Normal.png using Guid(23d1ab02c55976549b851b60da0540ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f579e8e000a2bbb185f2cba8946ac275') in 0.014151 seconds 
+  Import took 0.017328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Prefabs/Regina/Regina Sitting Talking.fbm/Regina_Top_Normal.png
+  artifactKey: Guid(834a726dba3c9fb45a8b7ba07286d181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Regina/Regina Sitting Talking.fbm/Regina_Top_Normal.png using Guid(834a726dba3c9fb45a8b7ba07286d181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aacb1e9eec4fe9390d240b9b0ebf4b16') in 0.016543 seconds 
+  Import took 0.019079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Prefabs/Regina/Regina Sitting Talking.fbm/Regina_Bottom_Specular.png
+  artifactKey: Guid(65803dd4e75b97d4db3a664e2a24214f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Regina/Regina Sitting Talking.fbm/Regina_Bottom_Specular.png using Guid(65803dd4e75b97d4db3a664e2a24214f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4277f06e604a42c05e321d0811f05c7') in 0.017165 seconds 
+  Import took 0.019555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Prefabs/Regina/Regina Sitting Talking.fbm/Regina_Hair_Diffuse.png
+  artifactKey: Guid(5b4509bed7facdb4fac108e75be4a7a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Regina/Regina Sitting Talking.fbm/Regina_Hair_Diffuse.png using Guid(5b4509bed7facdb4fac108e75be4a7a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc5ae1396ed0c7d188c77b1549b9fe16') in 0.013547 seconds 
+  Import took 0.016213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Prefabs/Regina/Regina Sitting Talking.fbm/Regina_Hair_Specular.png
+  artifactKey: Guid(472343ef6f7927d45ae4d65fd5bbc6cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Regina/Regina Sitting Talking.fbm/Regina_Hair_Specular.png using Guid(472343ef6f7927d45ae4d65fd5bbc6cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4c5229e321ccd7c032bb81a3438bcea') in 0.010188 seconds 
+  Import took 0.012782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Prefabs/Regina/Regina Sitting Talking.fbm/Regina_Shoes_Specular.png
+  artifactKey: Guid(b8c3c9e6ef40a00488519b183e0d2bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Regina/Regina Sitting Talking.fbm/Regina_Shoes_Specular.png using Guid(b8c3c9e6ef40a00488519b183e0d2bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd0731b849348938115a2441ea3197cc') in 0.011092 seconds 
+  Import took 0.013514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Prefabs/Regina/Regina Sitting Talking.fbm/Regina_Shoes_Opacity.png
+  artifactKey: Guid(580aea6129abfaf4fbd00e7fe581ed2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Regina/Regina Sitting Talking.fbm/Regina_Shoes_Opacity.png using Guid(580aea6129abfaf4fbd00e7fe581ed2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e35cea6a49642a5189a2e64fe9d4dd70') in 0.009740 seconds 
+  Import took 0.012442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Prefabs/Regina/Regina Sitting Talking.fbm/Regina_Top_Diffuse.png
+  artifactKey: Guid(44bb241d0969f684b9e17e183842763b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Regina/Regina Sitting Talking.fbm/Regina_Top_Diffuse.png using Guid(44bb241d0969f684b9e17e183842763b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14860278ffbc2c357a3cea720a13fe89') in 0.011106 seconds 
+  Import took 0.013701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Prefabs/Regina/Regina Sitting Talking.fbm/Regina_Hat_Opacity.png
+  artifactKey: Guid(eddc70883729ac34a8da2d89e2cde6ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Regina/Regina Sitting Talking.fbm/Regina_Hat_Opacity.png using Guid(eddc70883729ac34a8da2d89e2cde6ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e31517166b2ca1b21f5d5b4830aeeb8') in 0.011696 seconds 
+  Import took 0.014272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Prefabs/Regina/Regina Sitting Talking.fbm/Regina_Shoes_Diffuse.png
+  artifactKey: Guid(ec535775cd3f3bf4cb7b72b504ef75d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Regina/Regina Sitting Talking.fbm/Regina_Shoes_Diffuse.png using Guid(ec535775cd3f3bf4cb7b72b504ef75d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8b7da41ec08fac192e9ebdd59bd5c34') in 0.010138 seconds 
+  Import took 0.012681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Prefabs/Regina/Regina Sitting Talking.fbm/Regina_Bottom_Diffuse.png
+  artifactKey: Guid(e49d6373fe63a0c4ba927f66ad001599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Regina/Regina Sitting Talking.fbm/Regina_Bottom_Diffuse.png using Guid(e49d6373fe63a0c4ba927f66ad001599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '529ffd3fa6585d71e6da7095cb0b8504') in 0.010904 seconds 
+  Import took 0.013402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Prefabs/Regina/Regina Sitting Talking.fbm/Regina_Shoes_Gloss.png
+  artifactKey: Guid(8839d5a6abd18074ca1e80e4d1b134c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Regina/Regina Sitting Talking.fbm/Regina_Shoes_Gloss.png using Guid(8839d5a6abd18074ca1e80e4d1b134c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83d35548f3c0828a784179b290f1eaf9') in 0.011693 seconds 
+  Import took 0.013747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Prefabs/Regina/Regina Sitting Talking.fbm/Regina_Body_Specular.png
+  artifactKey: Guid(265537de96e32f14c928f5f266024abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Regina/Regina Sitting Talking.fbm/Regina_Body_Specular.png using Guid(265537de96e32f14c928f5f266024abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e96c3b9c910fe2a0596903023d75739') in 0.012989 seconds 
+  Import took 0.015376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Prefabs/Regina/Regina Sitting Talking.fbm/Regina_Bottom_Normal.png
+  artifactKey: Guid(6c99e968bd7566940900a7652ef506ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Regina/Regina Sitting Talking.fbm/Regina_Bottom_Normal.png using Guid(6c99e968bd7566940900a7652ef506ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90e544a3084fcafed13ed0adeff7f2fa') in 0.187879 seconds 
+  Import took 0.190242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Prefabs/Regina/Regina Sitting Talking.fbm/Regina_Top_Gloss.png
+  artifactKey: Guid(da35dde330a922849a307902baa8d53b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Regina/Regina Sitting Talking.fbm/Regina_Top_Gloss.png using Guid(da35dde330a922849a307902baa8d53b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5806f9832eb75cf8df137d7a683b1b9d') in 0.013998 seconds 
+  Import took 0.016740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Prefabs/Regina/Regina Sitting Talking.fbm/Regina_Bottom_Gloss.png
+  artifactKey: Guid(3c84a2f8699830346afd122fcc086cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Regina/Regina Sitting Talking.fbm/Regina_Bottom_Gloss.png using Guid(3c84a2f8699830346afd122fcc086cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b300f28c25ecddab9d43c0e565479bb3') in 0.012049 seconds 
+  Import took 0.015147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Prefabs/Regina/Regina Sitting Talking.fbm/Regina_Body_Opacity.png
+  artifactKey: Guid(7eb9b6d226ac23946a9d347ef0bc8952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Regina/Regina Sitting Talking.fbm/Regina_Body_Opacity.png using Guid(7eb9b6d226ac23946a9d347ef0bc8952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '184ddb54bddfa224130eba41a85e34cf') in 0.012389 seconds 
+  Import took 0.015269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Prefabs/Regina/Regina Sitting Talking.fbm/Regina_Hair_Opacity.png
+  artifactKey: Guid(0eccaf42554ba944f8233ca364b9447d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Regina/Regina Sitting Talking.fbm/Regina_Hair_Opacity.png using Guid(0eccaf42554ba944f8233ca364b9447d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '713448d32d1579df29db286e8bc90cd0') in 0.011864 seconds 
+  Import took 0.014514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Prefabs/Regina/Regina Sitting Talking.fbm/Regina_Hat_Gloss.png
+  artifactKey: Guid(28592d1e565599643aa3ea60d5154bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Regina/Regina Sitting Talking.fbm/Regina_Hat_Gloss.png using Guid(28592d1e565599643aa3ea60d5154bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e117c02dfa3b0649c0a10ded925bb21d') in 0.011143 seconds 
+  Import took 0.013629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Prefabs/Regina/Regina Sitting Talking.fbm/Regina_Hat_Normal.png
+  artifactKey: Guid(250188a4b7b22c746a301f96adfa42c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Regina/Regina Sitting Talking.fbm/Regina_Hat_Normal.png using Guid(250188a4b7b22c746a301f96adfa42c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceab7c201a132c3856708b16c6b26052') in 0.011934 seconds 
+  Import took 0.014447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Prefabs/Regina/Regina Sitting Talking.fbm/Regina_Hair_Gloss.png
+  artifactKey: Guid(023bd43c29c102e499a9da82ed68b68e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Regina/Regina Sitting Talking.fbm/Regina_Hair_Gloss.png using Guid(023bd43c29c102e499a9da82ed68b68e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98bc121118e0de08c4018f2e6fe9540f') in 0.010723 seconds 
+  Import took 0.013125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Prefabs/Regina/Regina Sitting Talking.fbm/Regina_Hat_Specular.png
+  artifactKey: Guid(9fd7995fb8c524f45bccce7f4ad2e5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Regina/Regina Sitting Talking.fbm/Regina_Hat_Specular.png using Guid(9fd7995fb8c524f45bccce7f4ad2e5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c11adfb21a473e5e02968ac14461a85') in 0.010995 seconds 
+  Import took 0.013397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Prefabs/Regina/Regina Sitting Talking.fbm/Regina_Bottom_Opacity.png
+  artifactKey: Guid(dff8a2ede5c5678458f308b53e5b5852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Regina/Regina Sitting Talking.fbm/Regina_Bottom_Opacity.png using Guid(dff8a2ede5c5678458f308b53e5b5852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bf8406cba6a499971d059c8a1d4b81b') in 0.010576 seconds 
+  Import took 0.012996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Prefabs/Regina/Regina Sitting Talking.fbm/Regina_Top_Specular.png
+  artifactKey: Guid(dbc448745e4003c468b5ee4c6770154d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Regina/Regina Sitting Talking.fbm/Regina_Top_Specular.png using Guid(dbc448745e4003c468b5ee4c6770154d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '815ea302565c70c1ddaaa241c97e71c1') in 0.011611 seconds 
+  Import took 0.014383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Prefabs/Regina/Regina Sitting Talking.fbm/Regina_Hat_Diffuse.png
+  artifactKey: Guid(f85cc68f069889d45b0bf1bd9b241b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Regina/Regina Sitting Talking.fbm/Regina_Hat_Diffuse.png using Guid(f85cc68f069889d45b0bf1bd9b241b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f63cedd99da9218f14be09ed33664d22') in 0.010391 seconds 
+  Import took 0.012799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Prefabs/Regina/Regina Sitting Talking.fbm/Regina_Top_Opacity.png
+  artifactKey: Guid(c0f4372f60c0bec4b8705549488429f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Regina/Regina Sitting Talking.fbm/Regina_Top_Opacity.png using Guid(c0f4372f60c0bec4b8705549488429f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '847e1d077cb7e8e9be956f9d050980aa') in 0.011513 seconds 
+  Import took 0.014563 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004365 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.121 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1429 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.2 MB.
+System memory in use after: 100.3 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1941.
+Total: 2.434700 ms (FindLiveObjects: 0.163700 ms CreateObjectMapping: 0.075400 ms MarkObjects: 2.103600 ms  DeleteObjects: 0.091000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 7.872368 seconds.
+  path: Assets/Prefabs/Regina/mixamo.com.anim
+  artifactKey: Guid(483be849b95069e48a3765f39842297e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Regina/mixamo.com.anim using Guid(483be849b95069e48a3765f39842297e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e973a775a0047de9155163a134266b4') in 0.050427 seconds 
+  Import took 0.054121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.546905 seconds.
+  path: Assets/Prefabs/Regina/Sitting Talking.anim
+  artifactKey: Guid(483be849b95069e48a3765f39842297e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Regina/Sitting Talking.anim using Guid(483be849b95069e48a3765f39842297e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '038de37f47aef792f53899a1e66d9d55') in 0.038038 seconds 
+  Import took 0.040581 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005442 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.125 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1429 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.3 MB.
+System memory in use after: 100.3 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1943.
+Total: 2.018900 ms (FindLiveObjects: 0.147900 ms CreateObjectMapping: 0.071300 ms MarkObjects: 1.736800 ms  DeleteObjects: 0.061700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 123.025607 seconds.
+  path: Assets/Prefabs/Shea
+  artifactKey: Guid(50a72079c0fb3b3408a74d7105279382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shea using Guid(50a72079c0fb3b3408a74d7105279382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beb8f223c761ba069f25521bf530a7b8') in 0.011642 seconds 
+  Import took 0.015485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.345221 seconds.
+  path: Assets/Prefabs/Shae
+  artifactKey: Guid(50a72079c0fb3b3408a74d7105279382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shae using Guid(50a72079c0fb3b3408a74d7105279382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1fa5584be69a04a86c9c061ef9aa386') in 0.003079 seconds 
+  Import took 0.005968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.108916 seconds.
+  path: Assets/Prefabs/Shae/Shae Sitting Talking.fbx
+  artifactKey: Guid(5a7a83125e7d0464695fd69d869b4ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shae/Shae Sitting Talking.fbx using Guid(5a7a83125e7d0464695fd69d869b4ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05e5bc03a22fe4230030fe9754289338') in 0.167731 seconds 
+  Import took 0.171754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.154598 seconds.
+  path: Assets/Prefabs/Shae/Materials
+  artifactKey: Guid(e255b6fe44d8bdc4499dc97ba732f7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shae/Materials using Guid(e255b6fe44d8bdc4499dc97ba732f7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a010282ef12f91ac7ebf844d1f0e566') in 0.003415 seconds 
+  Import took 0.006308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.050572 seconds.
+  path: Assets/Prefabs/Shae/Materials/Shae_Body_Diffuse.mat
+  artifactKey: Guid(bf4be99809d056244956774a39bf2dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shae/Materials/Shae_Body_Diffuse.mat using Guid(bf4be99809d056244956774a39bf2dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b62c00591c3e0e2a42847d10fcbad21') in 0.015400 seconds 
+  Import took 0.017982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Prefabs/Shae/Materials/Shae_Shoes_Diffuse.mat
+  artifactKey: Guid(dbfdb25dd4524e34abb88ef977d5f257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shae/Materials/Shae_Shoes_Diffuse.mat using Guid(dbfdb25dd4524e34abb88ef977d5f257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2c662603e0aabbb70420b9da8251c1b') in 0.012997 seconds 
+  Import took 0.015491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Prefabs/Shae/Materials/Shae_Hair_Diffuse.mat
+  artifactKey: Guid(6eecf10c3a8a24447b364261c7a23ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shae/Materials/Shae_Hair_Diffuse.mat using Guid(6eecf10c3a8a24447b364261c7a23ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c809aaca1213f2c987f8486c6e45e5d4') in 0.013300 seconds 
+  Import took 0.017250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Prefabs/Shae/Materials/Shae_Bottom_Diffuse.mat
+  artifactKey: Guid(e155772aa820dcf4e90c97f023df32aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shae/Materials/Shae_Bottom_Diffuse.mat using Guid(e155772aa820dcf4e90c97f023df32aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9ec0de605b9557a6a17077194f1178c') in 0.014170 seconds 
+  Import took 0.017335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Prefabs/Shae/Materials/Shae_Hair_Diffuse.mat
+  artifactKey: Guid(6eecf10c3a8a24447b364261c7a23ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shae/Materials/Shae_Hair_Diffuse.mat using Guid(6eecf10c3a8a24447b364261c7a23ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c809aaca1213f2c987f8486c6e45e5d4') in 0.010563 seconds 
+  Import took 0.013049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Prefabs/Shae/Materials/Shae_Top_Diffuse.mat
+  artifactKey: Guid(957e4623e9ce3d540a88408cb3461562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shae/Materials/Shae_Top_Diffuse.mat using Guid(957e4623e9ce3d540a88408cb3461562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6a8862edeb99facf1e115a0040d636f') in 0.016124 seconds 
+  Import took 0.019064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.144540 seconds.
+  path: Assets/Prefabs/Shae/mixamo.com.anim
+  artifactKey: Guid(7a9b620fcb224854dae4efbe7e5b48fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shae/mixamo.com.anim using Guid(7a9b620fcb224854dae4efbe7e5b48fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99973dc76409485e8fd233e7040f3066') in 0.035825 seconds 
+  Import took 0.038187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.214870 seconds.
+  path: Assets/Prefabs/Shae/Sitting talking.anim
+  artifactKey: Guid(7a9b620fcb224854dae4efbe7e5b48fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shae/Sitting talking.anim using Guid(7a9b620fcb224854dae4efbe7e5b48fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3004f56aebbddde54d9e2c592e68657') in 0.042378 seconds 
+  Import took 0.044679 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004528 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.900 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1429 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.3 MB.
+System memory in use after: 100.4 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1946.
+Total: 2.186100 ms (FindLiveObjects: 0.214600 ms CreateObjectMapping: 0.108200 ms MarkObjects: 1.760600 ms  DeleteObjects: 0.101200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004618 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.015 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1429 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.3 MB.
+System memory in use after: 100.4 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1948.
+Total: 2.020100 ms (FindLiveObjects: 0.145500 ms CreateObjectMapping: 0.045400 ms MarkObjects: 1.758800 ms  DeleteObjects: 0.069300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005238 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.171 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1429 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.3 MB.
+System memory in use after: 100.4 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1950.
+Total: 1.962400 ms (FindLiveObjects: 0.163200 ms CreateObjectMapping: 0.082000 ms MarkObjects: 1.652000 ms  DeleteObjects: 0.064200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 605.334322 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Animation/Breathing Idle.fbx
+  artifactKey: Guid(22907cad93339094e9e786cfab44e04c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Animation/Breathing Idle.fbx using Guid(22907cad93339094e9e786cfab44e04c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cec6111a9e5af0caa72eb26b8be7f38e') in 0.208083 seconds 
+  Import took 0.212352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.714458 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Animation/mixamo.com.anim
+  artifactKey: Guid(6c349944277f9bf48a29f8f6d3cc73ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Animation/mixamo.com.anim using Guid(6c349944277f9bf48a29f8f6d3cc73ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6d88ace05ad9aca208c866cc1409e1f') in 0.013214 seconds 
+  Import took 0.015756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.112531 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Animation/breathing idle.anim
+  artifactKey: Guid(6c349944277f9bf48a29f8f6d3cc73ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Animation/breathing idle.anim using Guid(6c349944277f9bf48a29f8f6d3cc73ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '521cf83e98567d2546410236930e347c') in 0.015306 seconds 
+  Import took 0.018096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 483.399480 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx
+  artifactKey: Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx using Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2938ff9698e9c55b6f69f497458a7403') in 0.066444 seconds 
+  Import took 0.070535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 82.067568 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx
+  artifactKey: Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx using Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd02b0edf155fafa99b3e84b507df424f') in 0.070252 seconds 
+  Import took 0.073649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.532609 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx
+  artifactKey: Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx using Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efc8b87d0765bb012b8e5b0dac05a602') in 0.078336 seconds 
+  Import took 0.081516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 128.909499 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx
+  artifactKey: Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx using Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd080eba05c6bbdad92be0e9569b6f9b4') in 0.061709 seconds 
+  Import took 0.065335 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004300 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.175 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1429 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.4 MB.
+System memory in use after: 100.5 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1953.
+Total: 2.021200 ms (FindLiveObjects: 0.146600 ms CreateObjectMapping: 0.066100 ms MarkObjects: 1.743800 ms  DeleteObjects: 0.063900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 44.774138 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx
+  artifactKey: Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx using Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c0f2aba3f511aeed28d79c4caf21c39') in 0.110892 seconds 
+  Import took 0.114060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 109.110297 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx
+  artifactKey: Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx using Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b88aae9d2c5541fbd5ba236387f5a0a') in 0.091302 seconds 
+  Import took 0.094584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.921307 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx
+  artifactKey: Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx using Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b1bd5988651e640137069b2b5986267') in 0.088137 seconds 
+  Import took 0.091855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.614835 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx
+  artifactKey: Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx using Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '854e652a212089969acd962be8ff6513') in 0.065714 seconds 
+  Import took 0.068955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.629972 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx
+  artifactKey: Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx using Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6f79e99ba83102aeb5209d6f78920ff') in 0.085171 seconds 
+  Import took 0.088557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.752216 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Bryce waiter (1).controller
+  artifactKey: Guid(62817d7232d2af045ab56271d9bf2d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Bryce waiter (1).controller using Guid(62817d7232d2af045ab56271d9bf2d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec64c01bdd1dbc9109165ec73ec0eef8') in 0.015531 seconds 
+  Import took 0.019985 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005885 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.240 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1429 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.6 MB.
+System memory in use after: 100.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1956.
+Total: 1.992300 ms (FindLiveObjects: 0.151600 ms CreateObjectMapping: 0.069500 ms MarkObjects: 1.706100 ms  DeleteObjects: 0.064100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 61.126630 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Bryce waiter (1).controller
+  artifactKey: Guid(62817d7232d2af045ab56271d9bf2d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Bryce waiter (1).controller using Guid(62817d7232d2af045ab56271d9bf2d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af36de9a90b71453a12b43b1181d58d3') in 0.033568 seconds 
+  Import took 0.037143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.872860 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx
+  artifactKey: Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx using Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96edd89087b18243e06667640cbac900') in 0.097268 seconds 
+  Import took 0.100485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.934334 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx
+  artifactKey: Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx using Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb380bbf721dc676cab7129f2fdf8060') in 0.076439 seconds 
+  Import took 0.080333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.049932 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx
+  artifactKey: Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx using Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0150e7b66f5f97a492a4e81a0d67cd0') in 0.071367 seconds 
+  Import took 0.077051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.250030 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Ch42_Shirt.controller
+  artifactKey: Guid(9a3df6a3de90cfc4ebd39743e0d2ccbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Ch42_Shirt.controller using Guid(9a3df6a3de90cfc4ebd39743e0d2ccbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c454e80bce6be4ae7b3ee59012fb89d1') in 0.007389 seconds 
+  Import took 0.013417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.046442 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Ch42_Shirt.controller
+  artifactKey: Guid(9a3df6a3de90cfc4ebd39743e0d2ccbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Ch42_Shirt.controller using Guid(9a3df6a3de90cfc4ebd39743e0d2ccbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42fdb2e34a6abd8a30553df5e38648ea') in 0.007229 seconds 
+  Import took 0.011273 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004618 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.922 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1429 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.6 MB.
+System memory in use after: 100.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1959.
+Total: 1.950100 ms (FindLiveObjects: 0.156200 ms CreateObjectMapping: 0.074600 ms MarkObjects: 1.658700 ms  DeleteObjects: 0.059600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 34.378878 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx
+  artifactKey: Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx using Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '668242711e904718177fa9766ec11ecd') in 0.112079 seconds 
+  Import took 0.114920 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005390 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.075 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1429 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.6 MB.
+System memory in use after: 100.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1962.
+Total: 1.948800 ms (FindLiveObjects: 0.155400 ms CreateObjectMapping: 0.072600 ms MarkObjects: 1.664900 ms  DeleteObjects: 0.055000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006374 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.909 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1429 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.6 MB.
+System memory in use after: 100.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1964.
+Total: 2.333600 ms (FindLiveObjects: 0.148700 ms CreateObjectMapping: 0.072000 ms MarkObjects: 2.046100 ms  DeleteObjects: 0.065700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005935 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.926 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1429 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.6 MB.
+System memory in use after: 100.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1966.
+Total: 1.976800 ms (FindLiveObjects: 0.153800 ms CreateObjectMapping: 0.071900 ms MarkObjects: 1.674000 ms  DeleteObjects: 0.076000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 110.061693 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx
+  artifactKey: Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx using Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8437a5b76ec95a09f075039ad2bf296') in 0.136195 seconds 
+  Import took 0.138919 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006681 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.281 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1429 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.7 MB.
+System memory in use after: 100.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1969.
+Total: 1.961300 ms (FindLiveObjects: 0.161000 ms CreateObjectMapping: 0.077600 ms MarkObjects: 1.661400 ms  DeleteObjects: 0.060700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 42.054616 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx
+  artifactKey: Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx using Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3a39cf16f3ef8ed4c7f73fa62f26da7') in 0.124367 seconds 
+  Import took 0.127927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.839989 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx
+  artifactKey: Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx using Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73edca2cf2ca836096a4d26d0cf823d8') in 0.058720 seconds 
+  Import took 0.061791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.732995 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx
+  artifactKey: Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx using Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c760d93e5844d3e340f2d175e4e8aaa') in 0.076135 seconds 
+  Import took 0.079400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.873970 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx
+  artifactKey: Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx using Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '915ee4797231d39f180e433cf789176f') in 0.068772 seconds 
+  Import took 0.072199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.522685 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx
+  artifactKey: Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx using Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c600235aa64f76ab2629493f1c391241') in 0.074896 seconds 
+  Import took 0.078314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.686309 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx
+  artifactKey: Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx using Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '114c1ac8e2528abfbfab27f19f6dc6e7') in 0.092836 seconds 
+  Import took 0.096572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.869799 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx
+  artifactKey: Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx using Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cf5ae6902c532b13907307267cc16b4') in 0.080751 seconds 
+  Import took 0.084212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.263929 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx
+  artifactKey: Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx using Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb8814eabb24af3b1d8662be15e5b8ae') in 0.073907 seconds 
+  Import took 0.077316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.459397 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx
+  artifactKey: Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx using Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28d8e603c0f0cd0bba3016aba88f059b') in 0.077793 seconds 
+  Import took 0.081066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.959568 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx
+  artifactKey: Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx using Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd31cafbfb8e090ed0cb070d60bfd1fa7') in 0.080778 seconds 
+  Import took 0.084252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.648281 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx
+  artifactKey: Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx using Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1394b9c9d32eeb1e753a33651947ae2') in 0.072774 seconds 
+  Import took 0.075966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.134234 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx
+  artifactKey: Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx using Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6bf6812dfe9b29f8956567ac9e747eb') in 0.084218 seconds 
+  Import took 0.087577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.498898 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx
+  artifactKey: Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx using Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fc7fbd91a103983589458a6ce235cff') in 0.086355 seconds 
+  Import took 0.090460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.725881 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx
+  artifactKey: Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx using Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feb361a49e5467b91019e93304adf4e2') in 0.072651 seconds 
+  Import took 0.076282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.192206 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx
+  artifactKey: Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx using Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff1c5b4d5fba5c7f3dbed9605b1c3d6b') in 0.077961 seconds 
+  Import took 0.081418 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004385 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.873 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1429 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.7 MB.
+System memory in use after: 100.8 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1972.
+Total: 1.931200 ms (FindLiveObjects: 0.158500 ms CreateObjectMapping: 0.083800 ms MarkObjects: 1.628400 ms  DeleteObjects: 0.059300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 36.125263 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx
+  artifactKey: Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx using Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28751f24c285b16a3ee20eb55f726c4f') in 0.107944 seconds 
+  Import took 0.111084 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005229 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.983 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1429 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.7 MB.
+System memory in use after: 100.8 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1975.
+Total: 3.022100 ms (FindLiveObjects: 0.250800 ms CreateObjectMapping: 0.102000 ms MarkObjects: 2.591800 ms  DeleteObjects: 0.076400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 66.884113 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx
+  artifactKey: Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx using Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2f63e5ac69ca747a868e6e023c521fd') in 0.121120 seconds 
+  Import took 0.125107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.116456 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx
+  artifactKey: Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx using Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f418bfb93a0c38e9f70669ae069b23c3') in 0.076683 seconds 
+  Import took 0.080100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.362376 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx
+  artifactKey: Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx using Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '220cc6c392e9ea802a35bd93a9cf2a06') in 0.069165 seconds 
+  Import took 0.072604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.931677 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx
+  artifactKey: Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx using Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13735238f0fa8dd947cafd3cb9ffdaf1') in 0.081920 seconds 
+  Import took 0.085270 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.045470 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx
+  artifactKey: Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx using Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '682af9c3b33e074748743a730e409f47') in 0.064338 seconds 
+  Import took 0.068094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 77.751919 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx
+  artifactKey: Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx using Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6c577ecc26582f010ea18d3e8c15970') in 0.082523 seconds 
+  Import took 0.086042 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004348 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.917 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1429 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 101.1 MB.
+System memory in use after: 101.2 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1978.
+Total: 1.986200 ms (FindLiveObjects: 0.163600 ms CreateObjectMapping: 0.087400 ms MarkObjects: 1.672600 ms  DeleteObjects: 0.061900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 30.634524 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx
+  artifactKey: Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx using Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2933db924d5e5c68744ce974060d779b') in 0.115546 seconds 
+  Import took 0.118698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.231252 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Bryce waiterAvatar.asset
+  artifactKey: Guid(5bbb16a00ef64054c8cac676791acb3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Bryce waiterAvatar.asset using Guid(5bbb16a00ef64054c8cac676791acb3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00a37678cea02ace39080ac6536ae3d9') in 0.012135 seconds 
+  Import took 0.014849 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006384 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.921 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1429 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 101.1 MB.
+System memory in use after: 101.2 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1981.
+Total: 1.945600 ms (FindLiveObjects: 0.162600 ms CreateObjectMapping: 0.077200 ms MarkObjects: 1.636200 ms  DeleteObjects: 0.068700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004523 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.143 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1429 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 101.1 MB.
+System memory in use after: 101.2 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1983.
+Total: 2.041900 ms (FindLiveObjects: 0.164700 ms CreateObjectMapping: 0.087700 ms MarkObjects: 1.726800 ms  DeleteObjects: 0.061900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005017 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.125 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1429 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 101.1 MB.
+System memory in use after: 101.2 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1985.
+Total: 1.985300 ms (FindLiveObjects: 0.157900 ms CreateObjectMapping: 0.074600 ms MarkObjects: 1.688900 ms  DeleteObjects: 0.062800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 171.948136 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx
+  artifactKey: Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx using Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26b97786b3cb093905a731b4e9c5a59d') in 0.159995 seconds 
+  Import took 0.164078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.038992 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx
+  artifactKey: Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx using Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2bffe89f81b539cb7b2d050a90975e8') in 0.078792 seconds 
+  Import took 0.082427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.323358 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx
+  artifactKey: Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx using Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f36d04a7dc4bc1a91a2cf7f9b28921fe') in 0.067198 seconds 
+  Import took 0.070951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.917742 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx
+  artifactKey: Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx using Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f626fac00e7bfcd266e25fbe3706afba') in 0.098205 seconds 
+  Import took 0.101596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 86.273785 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Animation/mixamo.com.anim
+  artifactKey: Guid(a2d023b3f3a04464fab9bc0903c30e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Animation/mixamo.com.anim using Guid(a2d023b3f3a04464fab9bc0903c30e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2581682e89566ac0f597664321a6689') in 0.012276 seconds 
+  Import took 0.014925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.362590 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx
+  artifactKey: Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx using Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d324920d2181180752af39b9868b855') in 0.107686 seconds 
+  Import took 0.112189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001130 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx
+  artifactKey: Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx using Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d324920d2181180752af39b9868b855') in 0.114119 seconds 
+  Import took 0.117823 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.921537 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx
+  artifactKey: Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx using Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7a0475fa2d9d1f527b2bae2715e7b1d') in 0.076617 seconds 
+  Import took 0.080115 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.352379 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx
+  artifactKey: Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx using Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb2b7f5c193a8722ca4d11c87e4105b0') in 0.075383 seconds 
+  Import took 0.078505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.607042 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx
+  artifactKey: Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx using Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36c5e4713565e87dd3e39d94ee51802e') in 0.091984 seconds 
+  Import took 0.095347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.036240 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx
+  artifactKey: Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx using Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2042fe5cf972db9850e6b1dec88dea91') in 0.077971 seconds 
+  Import took 0.083397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 71.749479 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx
+  artifactKey: Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx using Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad2931518d9ac16b46284bb9c98f8f99') in 0.076333 seconds 
+  Import took 0.080053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.091326 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx
+  artifactKey: Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx using Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ea685d1bda95e683f8889d60732e274') in 0.096288 seconds 
+  Import took 0.099753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.488426 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx
+  artifactKey: Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx using Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b36f2422d6bbb547021df7b13b9a48ee') in 0.081995 seconds 
+  Import took 0.085473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.181976 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Bryce waiter.prefab
+  artifactKey: Guid(ff584eb6d46c7b143aee61cf1742f631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Bryce waiter.prefab using Guid(ff584eb6d46c7b143aee61cf1742f631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60c83206f20e337b9cd3bf166fea356b') in 0.077327 seconds 
+  Import took 0.080634 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005116 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.980 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1429 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 101.1 MB.
+System memory in use after: 101.2 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1988.
+Total: 2.035900 ms (FindLiveObjects: 0.177000 ms CreateObjectMapping: 0.097400 ms MarkObjects: 1.693000 ms  DeleteObjects: 0.067400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 65.388725 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx
+  artifactKey: Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx using Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd53905997ee1bbd234cb07e97eb96b6d') in 0.163329 seconds 
+  Import took 0.168614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.928701 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx
+  artifactKey: Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx using Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e4501e12b62a04dfaed023526a2319c') in 0.085068 seconds 
+  Import took 0.088531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.464143 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx
+  artifactKey: Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx using Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '207cc088e326962e67ef7fcac5a91d86') in 0.088978 seconds 
+  Import took 0.093375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.041190 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx
+  artifactKey: Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx using Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ec220cf241e63e4e987a0d9e8a1fc2a') in 0.074507 seconds 
+  Import took 0.077923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 144.083818 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx
+  artifactKey: Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx using Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfe77fb688b388dcff25878d83c4ef52') in 0.089615 seconds 
+  Import took 0.093243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.655254 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx
+  artifactKey: Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx using Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84d723169e5cb31a22d2bbed3315f1bc') in 0.113591 seconds 
+  Import took 0.117713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.849427 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx
+  artifactKey: Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx using Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ed9c63171a51d5e4c0e898b724b698d') in 0.077490 seconds 
+  Import took 0.080643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.388346 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx
+  artifactKey: Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx using Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6083602b43689df7244e2fce3d3dd796') in 0.082265 seconds 
+  Import took 0.086107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.701696 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx
+  artifactKey: Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx using Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cc8ffdbddd17dab4000da95b3665ff5') in 0.100314 seconds 
+  Import took 0.104278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.812780 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx
+  artifactKey: Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx using Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e48b5db42933c1bc1108e8954023402e') in 0.078391 seconds 
+  Import took 0.081928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.576814 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx
+  artifactKey: Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx using Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29c367524ef8357b7d8184944fd272f2') in 0.091773 seconds 
+  Import took 0.095724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.391759 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx
+  artifactKey: Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Bryce waiter.fbx using Guid(08b031dccf03b394d8246023989161e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c26a49e820c62ee3a4e2b88c04dc29de') in 0.084488 seconds 
+  Import took 0.088747 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004817 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.413 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1429 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 101.2 MB.
+System memory in use after: 101.3 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1991.
+Total: 2.008200 ms (FindLiveObjects: 0.162800 ms CreateObjectMapping: 0.076400 ms MarkObjects: 1.696000 ms  DeleteObjects: 0.072100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 319.252690 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Breathing Idle (1).fbx
+  artifactKey: Guid(1378cc5dbf9f21847b688ec55e2b8668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Breathing Idle (1).fbx using Guid(1378cc5dbf9f21847b688ec55e2b8668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f712dbcba9f481637b9aea50bb0e99d8') in 0.135063 seconds 
+  Import took 0.138151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.488353 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Breathing Idle (1).fbx
+  artifactKey: Guid(1378cc5dbf9f21847b688ec55e2b8668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Breathing Idle (1).fbx using Guid(1378cc5dbf9f21847b688ec55e2b8668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edc26578232def7dce828014f0a313e4') in 0.088992 seconds 
+  Import took 0.092392 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004657 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.214 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1429 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 101.3 MB.
+System memory in use after: 101.4 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1994.
+Total: 2.191100 ms (FindLiveObjects: 0.192900 ms CreateObjectMapping: 0.092700 ms MarkObjects: 1.830200 ms  DeleteObjects: 0.074200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 51.919021 seconds.
+  path: Assets/Prefabs/Bryce Waiter/mixamo.com.anim
+  artifactKey: Guid(5ab8e28a8d6277f41a0ec1bae0f0a716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/mixamo.com.anim using Guid(5ab8e28a8d6277f41a0ec1bae0f0a716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3b631842200657b22a3cd0458bcdf3c') in 0.025799 seconds 
+  Import took 0.028295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.187346 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Animation/Bryce waiter.controller
+  artifactKey: Guid(574949d2a14dd2d4bba35633e3606354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Animation/Bryce waiter.controller using Guid(574949d2a14dd2d4bba35633e3606354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e171b1dda0c576f88390a5423b31fcc0') in 0.049728 seconds 
+  Import took 0.052525 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004360 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.998 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1429 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 101.3 MB.
+System memory in use after: 101.4 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1996.
+Total: 2.014900 ms (FindLiveObjects: 0.166700 ms CreateObjectMapping: 0.088600 ms MarkObjects: 1.691600 ms  DeleteObjects: 0.066800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 18.825120 seconds.
+  path: Assets/Prefabs/Bryce Waiter/breathing idle.anim
+  artifactKey: Guid(5ab8e28a8d6277f41a0ec1bae0f0a716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/breathing idle.anim using Guid(5ab8e28a8d6277f41a0ec1bae0f0a716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e35bc5cd78cab767d4afdfda43c9907') in 0.023771 seconds 
+  Import took 0.026168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.795571 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Breathing Idle (1).controller
+  artifactKey: Guid(788c19adb22a837498ba2588ec4b2d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Breathing Idle (1).controller using Guid(788c19adb22a837498ba2588ec4b2d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '878da7a436c11cb60980a0ef0a533842') in 0.015585 seconds 
+  Import took 0.018564 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004797 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.013 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1429 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 101.3 MB.
+System memory in use after: 101.4 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1998.
+Total: 1.969100 ms (FindLiveObjects: 0.157400 ms CreateObjectMapping: 0.076600 ms MarkObjects: 1.670500 ms  DeleteObjects: 0.063600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 20.358323 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Animation/Bryce waiter.controller
+  artifactKey: Guid(574949d2a14dd2d4bba35633e3606354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Animation/Bryce waiter.controller using Guid(574949d2a14dd2d4bba35633e3606354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db3d37fdadd7c7e88760e480062c09cc') in 0.060683 seconds 
+  Import took 0.063441 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004684 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.142 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1429 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 101.3 MB.
+System memory in use after: 101.4 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2000.
+Total: 2.634200 ms (FindLiveObjects: 0.214800 ms CreateObjectMapping: 0.101700 ms MarkObjects: 2.230000 ms  DeleteObjects: 0.086300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004297 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.127 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1429 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 101.3 MB.
+System memory in use after: 101.4 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2002.
+Total: 1.978800 ms (FindLiveObjects: 0.171900 ms CreateObjectMapping: 0.084500 ms MarkObjects: 1.656600 ms  DeleteObjects: 0.064800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 26.771754 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Breathing Idle (1).controller
+  artifactKey: Guid(788c19adb22a837498ba2588ec4b2d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Breathing Idle (1).controller using Guid(788c19adb22a837498ba2588ec4b2d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc1ba52f96c44ba0a37c097300711dcb') in 0.032833 seconds 
+  Import took 0.035902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.429623 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Animation/Bryce waiter.controller
+  artifactKey: Guid(574949d2a14dd2d4bba35633e3606354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Animation/Bryce waiter.controller using Guid(574949d2a14dd2d4bba35633e3606354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96f08d4e0b13203a45f46e4baf47e7db') in 0.054653 seconds 
+  Import took 0.057252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.085956 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Animation/Bryce waiter.controller
+  artifactKey: Guid(574949d2a14dd2d4bba35633e3606354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Animation/Bryce waiter.controller using Guid(574949d2a14dd2d4bba35633e3606354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e87c8538e1a21502b4a9fe177c619e8') in 0.052609 seconds 
+  Import took 0.055121 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006227 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.984 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1429 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 101.3 MB.
+System memory in use after: 101.4 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2004.
+Total: 1.972900 ms (FindLiveObjects: 0.173000 ms CreateObjectMapping: 0.080600 ms MarkObjects: 1.653900 ms  DeleteObjects: 0.064400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004361 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.006 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1429 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 101.3 MB.
+System memory in use after: 101.4 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2006.
+Total: 2.492300 ms (FindLiveObjects: 0.288200 ms CreateObjectMapping: 0.185900 ms MarkObjects: 1.937700 ms  DeleteObjects: 0.079500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 128.502616 seconds.
+  path: Assets/Prefabs/Bryce Waiter/Materials/Ch42_1002_Diffuse.mat
+  artifactKey: Guid(7628538a149b4a140aeb3c6813216671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bryce Waiter/Materials/Ch42_1002_Diffuse.mat using Guid(7628538a149b4a140aeb3c6813216671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da83c1a708ce2a6013ca2f9718264ca5') in 0.073499 seconds 
+  Import took 0.076387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 104.772277 seconds.
+  path: Assets/Prefabs/New Shop.prefab
+  artifactKey: Guid(bd9dab9b3f6e147489d3b483a0f34812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/New Shop.prefab using Guid(bd9dab9b3f6e147489d3b483a0f34812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14ec7604bbb87a9c96559899dd416c36') in 0.065698 seconds 
+  Import took 0.070858 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004262 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.988 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1429 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.2 MB.
+System memory in use after: 102.3 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2011.
+Total: 1.966700 ms (FindLiveObjects: 0.164700 ms CreateObjectMapping: 0.084100 ms MarkObjects: 1.653800 ms  DeleteObjects: 0.063200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
