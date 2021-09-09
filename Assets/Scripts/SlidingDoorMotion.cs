@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class SlidingDoorMotion : MonoBehaviour
@@ -33,11 +31,5 @@ public class SlidingDoorMotion : MonoBehaviour
             doorSound.Play();
             animator.SetBool("Open", false);
         }
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }

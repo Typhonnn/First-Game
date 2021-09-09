@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -52,10 +50,8 @@ public class ItemPickup : MonoBehaviour
             itemText.gameObject.SetActive(false);
         }
     }
-    /// <summary>
-    /// Method for picking up item.
-    /// </summary>
-    /// <param name="item">Item.</param>
+
+    // Method for picking up item.
     private void PickItem(PickableItem item)
     {
         item.itemPickedSound.Play();
@@ -71,10 +67,8 @@ public class ItemPickup : MonoBehaviour
         item.transform.localPosition = Vector3.zero;
         item.transform.localEulerAngles = Vector3.zero;
     }
-    /// <summary>
-    /// Method for dropping item.
-    /// </summary>
-    /// <param name="item">Item.</param>
+
+    // Method for dropping item.
     private void DropItem(PickableItem item)
     {
         item.itemDroppedSound.Play();

@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class DoorMotion : MonoBehaviour
@@ -7,6 +5,7 @@ public class DoorMotion : MonoBehaviour
     private Animator animator;
     private AudioSource doorSqueak;
     private int numInside;
+
     // Start is called before the first frame update
     void Start()
     {

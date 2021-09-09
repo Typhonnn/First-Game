@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -9,11 +8,12 @@ public class Shooting : MonoBehaviour
     public GameObject aCamera;
     public GameObject target;
     public GameObject muzzlePoint;
+    public GameObject npc;
     public AudioSource fireSound;
     private LineRenderer line;
-    public GameObject npc;
     private Animator animator;
     private int hitCount;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -56,13 +56,13 @@ public class Shooting : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
             RaycastHit hit;
-            if(Physics.Raycast(aCamera.transform.position, aCamera.transform.forward, out hit))
+            if (Physics.Raycast(aCamera.transform.position, aCamera.transform.forward, out hit))
             {
                 target.GetComponent<MeshRenderer>().enabled = true;
                 target.transform.position = hit.point;
                 StartCoroutine(ShowFlash());
                 // Check if the npc was hit
-                if(npc.transform.gameObject == hit.transform.gameObject)
+                if (npc.transform.gameObject == hit.transform.gameObject)
                 {
                     hitCount++;
                     // Play animation of falling

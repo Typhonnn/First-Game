@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -10,8 +8,9 @@ public class Drawer1Motion : MonoBehaviour
     public GameObject crosshairsInteract;
     public GameObject aCamera;
     public Text drawerText;
-    private bool lookingAtDrawer;
     public AudioSource drawerSound;
+    private bool lookingAtDrawer;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -50,7 +49,7 @@ public class Drawer1Motion : MonoBehaviour
                     }
                     drawerSound.PlayDelayed(0.2f);
                 }
-      
+
             }
             else if (lookingAtDrawer)
             {

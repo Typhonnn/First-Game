@@ -1,13 +1,12 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
 public class ChefMotion : MonoBehaviour
 {
+    public Transform[] points;
     private Animator animator;
     private NavMeshAgent agent;
-    public Transform[] points;
     private int destination;
 
     // Start is called before the first frame update
@@ -30,11 +29,11 @@ public class ChefMotion : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.tag == "doWork")
+        if (other.gameObject.tag == "doWork")
         {
             StartCoroutine(doWork(other));
         }
-        else if(other.gameObject.tag == "NPCIdle")
+        else if (other.gameObject.tag == "NPCIdle")
         {
             StartCoroutine(idle(other, 10));
         }
@@ -65,7 +64,6 @@ public class ChefMotion : MonoBehaviour
         // after delay
         agent.isStopped = false;
         animator.SetInteger("state", 1);
-        
     }
 
     IEnumerator idle(Collider other, int seconds)

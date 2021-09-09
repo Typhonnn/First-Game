@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -14,10 +12,10 @@ public class GunPickup : MonoBehaviour
     void Update()
     {
         RaycastHit hit;
-        if(Physics.Raycast(aCamera.transform.position, aCamera.transform.forward, out hit, 4f))
+        if (Physics.Raycast(aCamera.transform.position, aCamera.transform.forward, out hit, 4f))
         {
             // The view is focused on the gun
-            if(hit.transform.gameObject == gunInDrawer.gameObject)
+            if (hit.transform.gameObject == gunInDrawer.gameObject)
             {
                 gunPickupText.gameObject.SetActive(true);
                 if (Input.GetKeyDown(KeyCode.F))
@@ -31,6 +29,5 @@ public class GunPickup : MonoBehaviour
                 gunPickupText.gameObject.SetActive(false);
             }
         }
-
     }
 }
